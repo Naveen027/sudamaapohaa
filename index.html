@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sudama pohaa</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="">
+        </div>
+
+        <!-- ✅ Animated Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <!-- ✅ Navigation Menu -->
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-left">
+            <p class="welcome">Welcome to</p>
+            <h1 class="title">Best<br />Poha dishe's</h1>
+            <!-- <a href="#about"> <div class="scroll-down">SCROLL DOWN</div></a>s -->
+        </div>
+
+        <div class="hero-center">
+            <img src="/images/WhatsApp Image 2025-11-14 at 11.33.34 AM.jpeg" alt="Coffee Mug" />
+        </div>
+
+        <div class="hero-right">
+            <img src="/images/img2.png" alt="Top view coffee" />
+            <p class="description">
+                Savor moments of bliss with every sip, as our expertly crafted coffees and delectable pastries embrace
+                your senses.
+            </p>
+            <div class="social">
+                <span>FB</span>
+                <span>IG</span>
+                <span>PI</span>
+                <span>X</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container" data-aos="fade-up">
+            <div class="about-text">
+                <h3>About Us</h3>
+                <p>We offer an unforgettable cafe experience with our premium beverages and delicious dishes. Whether
+                    it's a morning coffee or a late dinner, Lounge Cafe is your spot.</p>
+                <p>
+                    Welcome to Lounge Cafe – your cozy corner for great coffee, delicious food, and warm conversations.
+                    Founded with a passion for flavors and a love for community, we serve freshly brewed coffee,
+                    handcrafted beverages, and a menu full of tasty bites made with quality ingredients. Whether you're
+                    here for a quick break, a casual hangout, or to work in a peaceful atmosphere, Lounge Cafe offers
+                    the perfect blend of comfort and taste. Come in, relax, and make yourself at home.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="/images/img3.png" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+            <h3 class="section-title">Our Services</h3>
+            <div class="service-cards">
+                <div class="card">
+                    <h4>Coffee</h4>
+                    <p>Premium quality blends crafted by experts.</p>
+                </div>
+                <div class="card">
+                    <h4>Food</h4>
+                    <p>Delicious meals prepared with fresh ingredients.</p>
+                </div>
+                <div class="card">
+                    <h4>Beverages</h4>
+                    <p>Refreshing drinks and cold brews to delight you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="menu-left">
+            <h2>Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="menu-tab active" onclick="showTab('blends')">01.Breakfast</button>
+                <button class="menu-tab" onclick="showTab('pastries')">02.Coffee's</button>
+                <button class="menu-tab" onclick="showTab('treats')">03. Gourmet Treats</button>
+            </div>
+        </div>
+        <div class="menu-right">
+            <div class="menu-category active" id="blends">
+                <div class="menu-item">
+                    <div>
+                        <h4>Poha</h4>
+                        <p>Poha is a light, fluffy, and mildly spiced flattened rice dish made with onions, peanuts, and
+                            a squeeze of lemon.
+                        </p>
+                    </div>
+                    <span>&#x20B9; :30</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Susla</h4>
+                        <p>Susla is a simple, spicy, and tangy North Karnataka-style rice flakes dish cooked with red
+                            chilli, onion, and a tempering of mustard and curry leaves.</p>
+                    </div>
+                    <span>&#x20B9; :30</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Vada Pav</h4>
+                        <p>Vada Pav is a spicy Mumbai street-style snack made of a crispy potato fritter stuffed inside
+                            a soft pav with chutneys.</p>
+                    </div>
+                    <span>&#x20B9;:30</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Uppit</h4>
+                        <p>Uppit (Upma) is a soft, savory semolina dish cooked with onions, spices, and ghee for a warm,
+                            comforting flavor.</p>
+                    </div>
+                    <span>&#x20B9;:25</span>
+                </div>
+            </div>
+
+            <div class="menu-category" id="pastries">
+                <div class="menu-item">
+                    <div>
+                        <h4>Coffee</h4>
+                        <p>Flaky and buttery classic French pastry.</p>
+                    </div>
+                    <span>&#x20B9;:10</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Chocolate Coffee</h4>
+                        <p>Filled with creamy chocolate and baked to perfection.</p>
+                    </div>
+                    <span>&#x20B9;:20</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Vanilla Coffee</h4>
+                        <p>Coffee over vanilla custard in a crisp shell.</p>
+                    </div>
+                    <span>&#x20B9;:30</span>
+                </div>
+            </div>
+
+            <div class="menu-category" id="treats">
+                <div class="menu-item">
+                    <div>
+                        <h4>Almond Biscotti</h4>
+                        <p>Crunchy twice-baked almond biscuits, perfect for dipping.</p>
+                    </div>
+                    <span>&#x20B9;:15</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Chocolate Lava Cake</h4>
+                        <p>Warm and gooey chocolate cake with molten center.</p>
+                    </div>
+                    <span>&#x20B9;:30</span>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h4>Vanilla Bean Panna Cotta</h4>
+                        <p>Classic Italian dessert made with real vanilla bean.</p>
+                    </div>
+                    <span>&#x20B9;:25</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer Section -->
+    <section class="footer-map">
+        <div class="map-photo-section">
+            <div class="map-area">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935354.4114105937!2d73.96211352630823!3d18.664485791940823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc8c7ede4901e51%3A0xd194efb77f38629c!2sSudama%20Pohe%20Kalaburagi!5e0!3m2!1sen!2sin!4v1763102441440!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="photo-area">
+                <img src="/images/img4.png" alt="Cafe View 1" />
+                <img src="/images/img5.png" alt="Cafe View 2" />
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Logo & Address -->
+                <div class="footer-box">
+                    <h2 class="logo"><span class="script">sudama</span> pohaa</h2>
+                    <p><strong>Under ground, new maniyal complex, opposite to nv girls school,<br> Halbarga, Brhampur, Kalaburagi, Karnataka 585103</strong></p>
+                    <p>© All Rights Reserved 2025</p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-box">
+                    <h3>Contact Info</h3>
+                    <p>📱 +1 (800) 234-65-78</p>
+                    <p>📞 +1 (800) 234-65-78</p>
+                    <!-- <p>📧 cafert@example.com</p> -->
+                </div>
+
+                <!-- Opening Hours -->
+                <div class="footer-box">
+                    <h3>Opening Hours</h3>
+                    <p><strong>Mon – Fri</strong> from 8am to 9pm</p>
+                    <p><strong>Saturday</strong> from 9am to 4pm</p>
+                    <p><strong>Sunday</strong> from 9am to 4pm</p>
+                </div>
+
+                <!-- Social Links -->
+                <div class="footer-box">
+                    <h3>Follow Our Activity</h3>
+                    <p>We are on social networks</p>
+                    <div class="social-icons">
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="naveen">
+                <p>Designed and Developed by Naveen Bellad</p>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function showTab(tabId) {
+            document.querySelectorAll('.menu-tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.menu-category').forEach(cat => cat.classList.remove('active'));
+            document.querySelector(`.menu-tab[onclick*="${tabId}"]`).classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+
+
+    </script>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navAnchors = navLinks.querySelectorAll('a');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        navAnchors.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+    </script>
+</body>
+
+</html>
